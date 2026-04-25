@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Pendaftaran</title>
+</head>
+<body>
+  <h1>
+    Form pendaftaran Workshop
+  </h1>
+  <form action="#" method="post">
+    <!--Rachmad Pamuji-->
+    <div>
+      <label for="nama">nama lengkap</label><br>
+      <input type="text "
+      id="nama"
+      name="nama"
+      placeholder="Masukkan Nama Lengkap"
+      minlength="3"
+      maxlength="100"
+      required>
+    </div>
+    <!--Email-->
+    <div>
+      <label for="email">email *</label><br>
+      <input type="email"
+      id="email"
+      name="email"
+      placeholder="rahmadpamuji@gmial.com"
+      required>
+    </div>
+    <!--passowrd-->
+    <div>
+      <label for="password">password</label><br>
+      <input type="password"
+      id="password"
+      name="passowrd"
+      minlength="8"
+      placeholder="Minimal 8 Karakter"
+      required>
+    </div>
+    <!--Tanggal Lahir-->
+    <div>
+      <label for="tanggal alhir">tanggal lahir</label><br>
+      <input type="date"
+      id="tanggal_lahir"
+      name="tanggal_lahir">
+    </div>
+    <!--jenis kelamin (radio)-->
+    <div>
+      <p>jenis kelamin *</p>
+      <input type="radio"
+      id="laki laki"
+      name="jenis kelamin"
+      value="L"
+      required>
+      <label for="laki">Laki laki</label><br>
+      <input type="radio"
+      id="perempuan"
+      name="jenis kelamin"
+      value="P">
+      <label for="perempuan">perempuan</label>
+    </div>
+    <!--kelas / batch (dropdown)-->
+    <div>
+      <label for="kelas">pilih kelas *</label><br>
+      <select name="kelas" id="kelas" required>
+        <option value="Pilih kelas"></option>
+        <option value="A">Kelas A(senin-rabu)</option>
+        <option value="B">Kelas B(selasa-kamis)</option>
+        <option value="C">Kelas C(jumat-sabtu)</option>
+      </select>
+    </div>
+    <!--Minat(checkbox-bisa lebihdari satu)-->
+    <div>
+      <p>topik yang diminati :</p>
+      <input type="checkbox"
+      id="html"
+      name="minat"
+      value="html">
+      <label for="html">html & CSS</label><br>
+      <input type="checkbox" name="minat" id="js"
+      value="js">
+      <label for="js">JavaScript</label><br>
+      <input type="checkbox"
+      id="react"
+      name="minat"
+      value="react">
+      <label for="react">react</label><br>
+    </div>
+    <!--Pesan-->
+    <div>
+      <label for="pesan">pertannyaan atau pesan</label><br>
+    <textarea name="pesan" id="pesan"
+    rows="4"
+    cols="40"
+    placeholder="Tulis Pertanyaanmu disini....">
+    </textarea>
+    </div>
+    <!--Tombol-->
+    <div>
+      <button type="submit">Dafatr sekarang</button>
+      <button type="reset">Reset form</button>
+    </div>
+    
+
+  </form>
+  
+</body>
+</html>
