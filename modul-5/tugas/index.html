@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MyPorto</title>
+</head>
+
+<body class="bg-gradient-to-br from-gray-50 to-gray-100 dark:from-slate-950 dark:to-slate-900 font-sans text-slate-800 dark:text-slate-200 transition-all duration-300">
+
+  <nav class="sticky top-0 z-50 backdrop-blur bg-white/60 dark:bg-slate-900/60 border-b border-gray-200 dark:border-slate-800 shadow-sm">
+    <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
+      <h1 class="font-bold text-lg tracking-wide"><span class="text-red-800">V</span>ERSCEPE</h1>
+
+      <button id="toggleDark" class="p-2 rounded-lg bg-slate-800 text-white dark:bg-yellow-400 dark:text-black hover:scale-110 transition">
+        🔆
+      </button>
+    </div>
+  </nav>
+
+  <section class="text-center py-28 px-6">
+    <h1 class="text-4xl md:text-6xl font-extrabold leading-tight">
+      Hai, Saya 
+      <span class="bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
+        Rachmad Pamuji
+      </span>
+    </h1>
+
+    <p class="mt-6 text-gray-500 dark:text-gray-400 max-w-xl mx-auto">
+      Mahasiswa & Web Developer yang sedang belajar membangun website modern, interaktif, dan responsif.
+    </p>
+
+    <div class="mt-10 flex justify-center gap-4">
+      <button class="px-6 py-3 rounded-xl bg-blue-500 text-white font-semibold hover:bg-blue-600 hover:scale-105 transition shadow">
+        Lihat Project
+      </button>
+
+      <button class="px-6 py-3 rounded-xl border border-gray-300 dark:border-slate-700 hover:bg-gray-100 dark:hover:bg-slate-800 transition">
+        Kontak Saya
+      </button>
+    </div>
+  </section>
+
+  <section class="max-w-6xl mx-auto px-6 pb-20">
+    <h2 class="text-3xl font-bold mb-10 text-center">Project Saya</h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <!-- Card -->
+      <div class="group p-6 rounded-2xl bg-white/70 dark:bg-slate-900/70 backdrop-blur shadow hover:shadow-xl hover:-translate-y-2 transition">
+        <div class="h-40 rounded-xl bg-gradient-to-r from-blue-400 to-purple-500 mb-4"></div>
+        <h3 class="font-semibold text-lg mb-2">Web Pertama Saya</h3>
+        <p class="text-sm text-gray-500">Website sederhana menggunakan HTML & Tailwind</p>
+      </div>
+
+      <div class="group p-6 rounded-2xl bg-white/70 dark:bg-slate-900/70 backdrop-blur shadow hover:shadow-xl hover:-translate-y-2 transition">
+        <div class="h-40 rounded-xl bg-gradient-to-r from-pink-400 to-red-500 mb-4"></div>
+        <h3 class="font-semibold text-lg mb-2">kesukaan Saya</h3>
+        <p class="text-sm text-gray-500">Membuat web modern dengan animasi</p>
+      </div>
+
+      <div class="group p-6 rounded-2xl bg-white/70 dark:bg-slate-900/70 backdrop-blur shadow hover:shadow-xl hover:-translate-y-2 transition">
+        <div class="h-40 rounded-xl bg-gradient-to-r from-green-400 to-emerald-500 mb-4"></div>
+        <h3 class="font-semibold text-lg mb-2">Web Kesukaan Saya</h3>
+        <p class="text-sm text-gray-500">Web yang dengan UI/UX Bisa Memanjakan Mata</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="px-6 pb-24">
+    <div class="max-w-md mx-auto bg-white/70 dark:bg-slate-900/70 backdrop-blur p-8 rounded-2xl shadow-lg">
+      <h2 class="text-2xl font-bold mb-6 text-center">Kontak Saya</h2>
+
+      <input 
+        class="w-full p-3 rounded-lg border border-gray-300 dark:border-slate-700 bg-transparent mb-4 focus:outline-none focus:ring-2 focus:ring-blue-500" 
+        placeholder="Nama kamu..."
+      >
+
+      <textarea 
+        class="w-full p-3 rounded-lg border border-gray-300 dark:border-slate-700 bg-transparent mb-4 focus:outline-none focus:ring-2 focus:ring-blue-500" 
+        placeholder="Pesan kamu..."
+      ></textarea>
+
+      <button class="w-full py-3 rounded-lg bg-gradient-to-r from-blue-500 to-purple-500 text-white font-semibold hover:scale-105 transition shadow">
+        Kirim Pesan
+      </button>
+    </div>
+  </section>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
